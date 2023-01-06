@@ -1,0 +1,74 @@
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\bin\Debug\net6.0\appsettings.Development.json
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\bin\Debug\net6.0\appsettings.json
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\bin\Debug\net6.0\Arts.staticwebassets.runtime.json
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\bin\Debug\net6.0\Arts.exe
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\bin\Debug\net6.0\Arts.deps.json
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\bin\Debug\net6.0\Arts.runtimeconfig.json
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\bin\Debug\net6.0\Arts.dll
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\bin\Debug\net6.0\Arts.pdb
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\Arts.csproj.AssemblyReference.cache
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\Arts.GeneratedMSBuildEditorConfig.editorconfig
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\Arts.AssemblyInfoInputs.cache
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\Arts.AssemblyInfo.cs
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\Arts.csproj.CoreCompileInputs.cache
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\Arts.MvcApplicationPartsAssemblyInfo.cache
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\Arts.RazorAssemblyInfo.cache
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\Arts.RazorAssemblyInfo.cs
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\staticwebassets.build.json
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\staticwebassets.development.json
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\scopedcss\bundle\Arts.styles.css
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\scopedcss\projectbundle\Arts.bundle.scp.css
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\Arts.dll
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\refint\Arts.dll
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\Arts.pdb
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\Arts.genruntimeconfig.cache
+D:\TRAVAUX ADO .NET\projet\Arts\Arts\obj\Debug\net6.0\ref\Arts.dll
+D:\TRAVAUX ADO .NET\projet ADO\Arts\bin\Debug\net6.0\appsettings.Development.json
+D:\TRAVAUX ADO .NET\projet ADO\Arts\bin\Debug\net6.0\appsettings.json
+D:\TRAVAUX ADO .NET\projet ADO\Arts\bin\Debug\net6.0\Arts.staticwebassets.runtime.json
+D:\TRAVAUX ADO .NET\projet ADO\Arts\bin\Debug\net6.0\Arts.exe
+D:\TRAVAUX ADO .NET\projet ADO\Arts\bin\Debug\net6.0\Arts.deps.json
+D:\TRAVAUX ADO .NET\projet ADO\Arts\bin\Debug\net6.0\Arts.runtimeconfig.json
+D:\TRAVAUX ADO .NET\projet ADO\Arts\bin\Debug\net6.0\Arts.dll
+D:\TRAVAUX ADO .NET\projet ADO\Arts\bin\Debug\net6.0\Arts.pdb
+D:\TRAVAUX ADO .NET\projet ADO\Arts\obj\Debug\net6.0\Arts.csproj.AssemblyReference.cache
+D:\TRAVAUX ADO .NET\projet ADO\Arts\obj\Debug\net6.0\Arts.GeneratedMSBuildEditorConfig.editorconfig
+D:\TRAVAUX ADO .NET\projet ADO\Arts\obj\Debug\net6.0\Arts.AssemblyInfoInputs.cache
+D:\TRAVAUX ADO .NET\projet ADO\Arts\obj\Debug\net6.0\Arts.AssemblyInfo.cs
+D:\TRAVAUX ADO .NET\projet ADO\Arts\obj\Debug\net6.0\Arts.csproj.CoreCompileInputs.cache
+D:\TRAVAUX ADO .NET\projet ADO\Arts\obj\Debug\net6.0\Arts.MvcApplicationPartsAssemblyInfo.cache
+D:\TRAVAUX ADO .NET\projet ADO\Arts\obj\Debug\net6.0\Arts.RazorAssemblyInfo.cache
+D:\TRAVAUX ADO .NET\projet ADO\Arts\obj\Debug\net6.0\Arts.RazorAssemblyInfo.cs
+D:\TRAVAUX ADO .NET\projet ADO\Arts\obj\Debug\net6.0\staticwebassets.build.json
+D:\TRAVAUX ADO .NET\projet ADO\Arts\obj\Debug\net6.0\staticwebassets.development.json
+D:\TRAVAUX ADO .NET\projet ADO\Arts\obj\Debug\net6.0\scopedcss\bundle\Arts.styles.css
+D:\TRAVAUX ADO .NET\projet ADO\Arts\obj\Debug\net6.0\Arts.dll
+D:\TRAVAUX ADO .NET\projet ADO\Arts\obj\Debug\net6.0\refint\Arts.dll
+D:\TRAVAUX ADO .NET\projet ADO\Arts\obj\Debug\net6.0\Arts.pdb
+D:\TRAVAUX ADO .NET\projet ADO\Arts\obj\Debug\net6.0\Arts.genruntimeconfig.cache
+D:\TRAVAUX ADO .NET\projet ADO\Arts\obj\Debug\net6.0\ref\Arts.dll
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\bin\Debug\net6.0\appsettings.Development.json
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\bin\Debug\net6.0\appsettings.json
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\bin\Debug\net6.0\Arts.staticwebassets.runtime.json
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\bin\Debug\net6.0\Arts.exe
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\bin\Debug\net6.0\Arts.deps.json
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\bin\Debug\net6.0\Arts.runtimeconfig.json
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\bin\Debug\net6.0\Arts.dll
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\bin\Debug\net6.0\Arts.pdb
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\obj\Debug\net6.0\Arts.csproj.AssemblyReference.cache
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\obj\Debug\net6.0\Arts.GeneratedMSBuildEditorConfig.editorconfig
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\obj\Debug\net6.0\Arts.AssemblyInfoInputs.cache
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\obj\Debug\net6.0\Arts.AssemblyInfo.cs
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\obj\Debug\net6.0\Arts.csproj.CoreCompileInputs.cache
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\obj\Debug\net6.0\Arts.MvcApplicationPartsAssemblyInfo.cache
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\obj\Debug\net6.0\Arts.RazorAssemblyInfo.cache
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\obj\Debug\net6.0\Arts.RazorAssemblyInfo.cs
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\obj\Debug\net6.0\staticwebassets.build.json
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\obj\Debug\net6.0\staticwebassets.development.json
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\obj\Debug\net6.0\scopedcss\bundle\Arts.styles.css
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\obj\Debug\net6.0\Arts.dll
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\obj\Debug\net6.0\refint\Arts.dll
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\obj\Debug\net6.0\Arts.pdb
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\obj\Debug\net6.0\Arts.genruntimeconfig.cache
+D:\TRAVAUX ADO .NET\projet ADO\Arts\Arts\obj\Debug\net6.0\ref\Arts.dll
