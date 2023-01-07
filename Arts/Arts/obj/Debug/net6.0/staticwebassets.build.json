@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KBrX0B5qicpAg3RcpCmjyCYp0mgJCnBM9hmIqiTb8SM=",
+  "Hash": "pVfeAkuDbKLZlYPbYStN3jeNnOiT3AY/BHVewg2GR9Q=",
   "Source": "Arts",
   "BasePath": "_content/Arts",
   "Mode": "Default",
@@ -1341,6 +1341,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Ressources\\peinture.jpg"
+    },
+    {
+      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\user_60px.png",
+      "SourceId": "Arts",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "BasePath": "_content/Arts",
+      "RelativePath": "Ressources/user_60px.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Ressources\\user_60px.png"
     }
   ]
 }
