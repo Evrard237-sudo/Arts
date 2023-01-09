@@ -4,6 +4,22 @@
     ViewData["Title"] = "Sign up user";
 }
 
+<nav class="py-2 bg-light border-bottom fixed-top">
+    <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+            <li class="nav-item"><a class="nav-link link-dark px-2 active" aria-current="page" asp-area="" asp-page="/Index">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Creation</a></li>
+            <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Gallery</a></li>
+            <li class="nav-item"><a href="#" class="nav-link link-dark px-2">artists</a></li>
+            <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Shop</a></li>
+        </ul>
+        <ul class="nav d-flex">
+            <li class="nav-item me-2"><a class="nav-link link-dark btn btn-outline-primary m-auto" asp-area="" asp-page="/Users/LogIn">Log In</a></li>
+            <li class="nav-item"><a class="nav-link link-dark btn btn-primary m-auto" asp-area="" asp-page="/Users/SignUp">Sign up</a></li>
+        </ul>
+    </div>
+</nav>
+
 <br />
 
 @if (Model.errorMessage.Length > 0)

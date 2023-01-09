@@ -4,31 +4,35 @@
     ViewData["Title"] = "List users";
 }
 
-<br />
-<h2>List of users</h2>
+<div class="container">
+    <br />
+    <h2>List of users</h2>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Username</th>
-            <th>Email</th>
-            <th>Password</th>
-            <th>Is Admin</th>
-            <th>Create At</th>
-        </tr>
-    </thead>
-    <tbody>
-       @foreach (var item in Model.ListUsers)
-        {
+    <table class="table">
+        <thead>
             <tr>
-                <td>@item.Id</td>
-                <td>@item.Username</td>
-                <td>@item.Useremail</td>
-                <td>@item.Userpassword</td>
-                <td>@item.IsAdmin</td>
-                <td>@item.CreateAt</td>
+                <th>ID</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Is Admin</th>
+                <th>Create At</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            <!-- Affiche la liste des utilisateurs qui ont été crée dans la base de données -->
+            @foreach (var item in Model.ListUsers)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Username</td>
+                    <td>@item.Useremail</td>
+                    <td>@item.Userpassword</td>
+                    <td>@item.IsAdmin</td>
+                    <td>@item.CreateAt</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
