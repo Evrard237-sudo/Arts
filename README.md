@@ -2,9 +2,9 @@
 Site d' exposition et de vente d' oeuvre d' art
 
 ## Les fonctionnalités du site 
-[] Connecter 
+[x] Connecter 
 
-[] S' inscrire
+[x] S' inscrire
 
 [] Ajouter creations 
 
