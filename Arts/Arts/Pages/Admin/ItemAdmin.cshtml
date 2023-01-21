@@ -1,0 +1,45 @@
+﻿@page
+@model Arts.Pages.Admin.ItemAdminModel
+@{
+    ViewData["Title"] = "Item Administration";
+}
+
+<div class="container">
+<br/>
+<h2>List of Items</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Category</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Thumbnail</th>
+            <th>Price</th>
+            <th>Create At</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Affiche la liste des utilisateurs qui ont été crée dans la base de données -->
+        @foreach (var item in Model.ListItem)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.ItemCategory</td>
+                <td>@item.ItemName</td>
+                <td>@item.ItemDescription</td>
+                <td>@item.ItemThumbnail</td>
+                <td>@item.ItemPrice</td>
+                <td>@item.CreateAt</td>
+                <td class="d-flex justify-content-between">
+                        <a class="btn btn-primary btn-sm" href="/Admin/?id=@item.Id">Edit</a>
+                        <a class="btn btn-danger btn-sm" href="/Admin/?id=@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+</div>

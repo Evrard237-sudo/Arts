@@ -54,7 +54,7 @@ namespace Arts.Pages.Users
                                 // Je cree une session qui vas recuperer la valeur du username
                                 HttpContext.Session.SetString("username", userInfo.Username);
                                 // On vas se rediriger vers la page Home 
-                                Response.Redirect("/Home");
+                                Response.Redirect("/Index");
                             }
                             else
                             {

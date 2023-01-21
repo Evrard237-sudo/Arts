@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TnjAFgeHvUU5lsl56gVOGoC3KENU1+olkpe3lueUkYE+5FN1c3m75TDUIGmsqZwbQI9SMRk5sID/IAAkU19AoA==",
+  "dgSpecHash": "AE2cFsIVtPZz0kHmNjjZIjqa5MztNaY1VKgSSDSp51OWlQ1tI4Vxp5tuUl7NczNTJvrQNmz5z04WHtMuHGGIEg==",
   "success": true,
-  "projectFilePath": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\Arts.csproj",
+  "projectFilePath": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\Arts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nanou\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Nanou\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

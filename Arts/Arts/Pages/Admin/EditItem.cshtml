@@ -1,0 +1,76 @@
+﻿@page
+@model Arts.Pages.Admin.EditItemModel
+@{
+    ViewData["Title"] = "Edit Item";
+}
+
+<div class="container">
+    <br />
+    <h2>New Item</h2>
+
+    @if (Model.errorMessage.Length > 0)
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>@Model.errorMessage</strong>
+            <button type="button" class="btn-close" data-bs-dismiss='alert' aria-label="Close"></button>
+        </div>
+    }
+
+    <form method="post">
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">Categorie</label>
+            <div class="col-sm-6">
+                <select class="form-select">
+                    <option selected>Select some categorie</option>
+                    <option value="painting">Painting</option>
+                    <option value="sculpture">Sculpture</option>
+                    <option value="home deco">Home deco</option>
+                </select>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">Name</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="" value="" />
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">Description</label>
+            <div class="col-sm-6">
+                <textarea class="form-control"></textarea>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">Thumbnail</label>
+            <div class="col-sm-6">
+                <input type="file" class="form-control" name="" value="" />
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">Price</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="" value="0" />
+            </div>
+        </div>
+
+        @if (Model.successMessage.Length > 0)
+        {
+            <div class="row mb-3">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>@Model.successMessage</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        }
+
+        <div class="row mb-3">
+            <div class="offset-sm-3 col-sm-3 d-grid">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            <div class="col-sm-3 d-grid">
+                <a class="btn btn-outline-primary" href="/" role="button">Cancel</a>
+            </div>
+        </div>
+    </form>
+
+</div>

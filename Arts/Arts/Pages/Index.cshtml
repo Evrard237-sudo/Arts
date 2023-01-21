@@ -7,16 +7,24 @@
 <nav class="py-2 bg-light border-bottom fixed-top">
     <div class="container d-flex flex-wrap">
         <ul class="nav me-auto">
-            <li class="nav-item"><a class="nav-link link-dark px-2 active" aria-current="page" asp-area="" asp-page="/Index">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Creation</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2 disa" aria-current="page" asp-area="" asp-page="/Index">Home</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Items/ListItem" asp-area="">Creation</a></li>
             <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Gallery</a></li>
             <li class="nav-item"><a href="#" class="nav-link link-dark px-2">artists</a></li>
-            <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Shop</a></li>
         </ul>
-        <ul class="nav d-flex">
-            <li class="nav-item me-2"><a class="nav-link link-dark btn btn-outline-primary m-auto" asp-area="" asp-page="/Users/LogIn">Log In</a></li>
-            <li class="nav-item"><a class="nav-link link-dark btn btn-primary m-auto" asp-area="" asp-page="/Users/SignUp">Sign up</a></li>
-        </ul>
+        @if(Model.ReturnUsername == null){
+            <ul class="nav d-flex">
+                <li class="nav-item me-2"><a class="nav-link link-dark btn btn-outline-primary m-auto" asp-area="" asp-page="/Users/LogIn">Log In</a></li>
+                <li class="nav-item"><a class="nav-link link-dark btn btn-primary m-auto" asp-area="" asp-page="/Users/SignUp">Sign up</a></li>
+            </ul>
+        }
+        else{
+            <ul class="nav d-flex">
+                <li class="nav-item me-2"><span class="nav-link link-dark m-auto">@Model.ReturnUsername</span></li>
+                <li class="nav-item"><form method="post"><button class="nav-link link-dark btn btn-outline-secondary m-auto" asp-page="/Index" type="submit">Log out</button></form></li>
+            </ul>
+        }
+        
     </div>
 </nav>
 <header class="py-3 mb-4 border-bottom">
@@ -46,8 +54,14 @@
                 <div class="container">
                     <div class="carousel-caption text-start">
                         <h1>Welcome to our web site focused on art.</h1>
-                        <p>To access certain features of the site, please register.</p>
-                        <p><a class="btn btn-lg btn-primary" asp-area="" asp-page="Users/LogIn">Log in today</a></p>
+                        @if(Model.ReturnUsername == null){
+                            <p>To access certain features of the site, please register.</p>
+                            <p><a class="btn btn-lg btn-primary" asp-area="" asp-page="Users/LogIn">Log in today</a></p>
+                        } else {
+                            <p>Now can see some of my creation </p>
+                            <p><a class="btn btn-lg btn-primary" asp-area="" asp-page="">My creation</a></p>
+                        }
+                        
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pVfeAkuDbKLZlYPbYStN3jeNnOiT3AY/BHVewg2GR9Q=",
+  "Hash": "gZbLS4ejpBuqKWWmX8xTSRXMSdChn7c7666S9aIgwJs=",
   "Source": "Arts",
   "BasePath": "_content/Arts",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Arts\\wwwroot",
       "Source": "Arts",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\css\\carousel.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\css\\carousel.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "css/carousel.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\carousel.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\css\\site.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\css\\site.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\favicon.ico",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\favicon.ico",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\js\\site.js",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\js\\site.js",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\bg-slider.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\bg-slider.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/bg-slider.jpg",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\bg-slider.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\img1.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\img1.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/img1.jpg",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\img1.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\img10.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\img10.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/img10.jpg",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\img10.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\img11.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\img11.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/img11.jpg",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\img11.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\img12.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\img12.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/img12.jpg",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\img12.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\img13.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\img13.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/img13.jpg",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\img13.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\img14.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\img14.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/img14.jpg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\img14.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\img15.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\img15.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/img15.jpg",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\img15.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\img2.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\img2.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/img2.jpg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\img2.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\img3.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\img3.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/img3.jpg",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\img3.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\img4.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\img4.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/img4.jpg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\img4.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\img5.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\img5.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/img5.jpg",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\img5.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\img6.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\img6.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/img6.jpg",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\img6.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\img7.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\img7.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/img7.jpg",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\img7.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\img8.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\img8.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/img8.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\img8.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\img9.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\img9.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/img9.jpg",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\img9.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\peinture.jpg",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\peinture.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/peinture.jpg",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\peinture.jpg"
     },
     {
-      "Identity": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\Ressources\\user_60px.png",
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\Ressources\\user_60px.png",
       "SourceId": "Arts",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TRAVAUX ADO .NET\\projet ADO\\Arts\\Arts\\wwwroot\\",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
       "BasePath": "_content/Arts",
       "RelativePath": "Ressources/user_60px.png",
       "AssetKind": "All",

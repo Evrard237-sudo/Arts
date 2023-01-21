@@ -11,7 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Items\" />
+    <Folder Include="Pages\Artists\" />
+    <Folder Include="wwwroot\UploadImage\" />
   </ItemGroup>
 
 </Project>
