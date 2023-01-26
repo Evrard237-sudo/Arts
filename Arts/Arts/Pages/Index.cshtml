@@ -7,10 +7,13 @@
 <nav class="py-2 bg-light border-bottom fixed-top">
     <div class="container d-flex flex-wrap">
         <ul class="nav me-auto">
-            <li class="nav-item"><a class="nav-link link-dark px-2 disa" aria-current="page" asp-area="" asp-page="/Index">Home</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2 disabled" aria-current="page" asp-area="" asp-page="/Index">Home</a></li>
             <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Items/ListItem" asp-area="">Creation</a></li>
-            <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Gallery</a></li>
-            <li class="nav-item"><a href="#" class="nav-link link-dark px-2">artists</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Gallery/ListGallery" asp-area="">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Artists/ListArtist" asp-area="">artists</a></li>
+            @if(Model.IsAdmin == 0){
+                <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Admin/ItemAdmin" asp-area="">Administration</a></li>
+            }
         </ul>
         @if(Model.ReturnUsername == null){
             <ul class="nav d-flex">
@@ -59,7 +62,7 @@
                             <p><a class="btn btn-lg btn-primary" asp-area="" asp-page="Users/LogIn">Log in today</a></p>
                         } else {
                             <p>Now can see some of my creation </p>
-                            <p><a class="btn btn-lg btn-primary" asp-area="" asp-page="">My creation</a></p>
+                            <p><a class="btn btn-lg btn-primary" asp-area="" asp-page="/Items/ListItem">My creation</a></p>
                         }
                         
                     </div>
@@ -83,7 +86,7 @@
                     <div class="carousel-caption text-end">
                         <h1>I made multiples works</h1>
                         <p>If you are interested please consult my gallery</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery.</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="/Gallery/ListGallery">Browse gallery.</a></p>
                     </div>
                 </div>
             </div>

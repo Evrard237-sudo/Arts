@@ -7,11 +7,38 @@ namespace Arts.Pages.Items
 {
     public class ListItemModel : PageModel
     {
+        public int? IsAdmin { get; set; }
         public List<ItemInfo> ListItem = new List<ItemInfo>();
         public string? ReturnUsername { get; set; }
         public void OnGet()
         {
             ReturnUsername = HttpContext.Session.GetString("username");
+            try
+            {
+                string ConnectionString = "Data Source=.;Initial Catalog=Arts;Integrated Security=True";
+                using (SqlConnection connection = new SqlConnection(ConnectionString))
+                {
+                    connection.Open();
+                    string sql = "SELECT IsAdmin FROM Users WHERE Username = '" + ReturnUsername + "';";
+                    using (SqlCommand command = new SqlCommand(sql, connection))
+                    {
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                IsAdmin = reader.GetInt32(0);
+                                Console.WriteLine(IsAdmin);
+                            
+                            }
+                        }
+                    }
+
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
             try
             {
                 string ConnectionString = "Data Source=.;Initial Catalog=Arts;Integrated Security=True";

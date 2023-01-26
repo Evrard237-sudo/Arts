@@ -1,0 +1,5 @@
+﻿@page
+@{
+    HttpContext.Session.Remove("username");
+    Response.Redirect("/Index");
+}

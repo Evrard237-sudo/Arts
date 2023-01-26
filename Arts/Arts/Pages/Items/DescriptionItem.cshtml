@@ -1,0 +1,92 @@
+﻿@page
+@model Arts.Pages.Items.DescriptionItemModel
+@{
+    ViewData["Title"] = "Item : " + Model.itemInfo.ItemName;
+}
+
+
+<nav class="py-2 bg-light border-bottom fixed-top">
+    <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+            <li class="nav-item"><a class="nav-link link-dark px-2" aria-current="page" asp-area="" asp-page="/Index">Home</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Items/ListItem" asp-area="">Creation</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Gallery/ListGallery" asp-area="">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Artists/ListArtist" asp-area="">artists</a></li>
+            @if (Model.IsAdmin == 0)
+            {
+                <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Admin/ItemAdmin" asp-area="">Administration</a></li>
+            }
+        </ul>
+        @if (Model.ReturnUsername == null)
+        {
+            <ul class="nav d-flex">
+                <li class="nav-item me-2"><a class="nav-link link-dark btn btn-outline-primary m-auto" asp-area="" asp-page="/Users/LogIn">Log In</a></li>
+                <li class="nav-item"><a class="nav-link link-dark btn btn-primary m-auto" asp-area="" asp-page="/Users/SignUp">Sign up</a></li>
+            </ul>
+        }
+        else
+        {
+            <ul class="nav d-flex">
+                <li class="nav-item me-2"><span class="nav-link link-dark m-auto">@Model.ReturnUsername</span></li>
+                <li class="nav-item"><a class="nav-link link-dark btn btn-outline-secondary m-auto" asp-page="/Users/LogOut" type="submit">Log out</a></li>
+            </ul>
+        }
+
+    </div>
+</nav>
+
+<br />
+
+@if (Model.errorMessage.Length > 0)
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>@Model.errorMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss='alert' aria-label="Close"></button>
+    </div>
+}
+
+
+<div class="container">
+    <h2>@Model.itemInfo.ItemName</h2>
+    <h3>@Model.itemInfo.ItemPrice FCFA</h3>
+    <img src="@Model.itemInfo.ItemThumbnail" alt="Description of @Model.itemInfo.ItemName" width="1000" height="400"/>
+    <p>@Model.itemInfo.ItemDescription</p>
+</div>
+
+<br/>
+@if(Model.ReturnUsername != null){
+<div class="container">
+    <form method="post">
+        <div class="input-group">
+            <span class="input-group-text">Commentary</span>
+            <textarea class="form-control" aria-label="text area" style="height: 80px;" name="ForumComment"></textarea>
+        </div>
+        <div class="input-group m-2">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+        @if (Model.successMessage.Length > 0)
+        {
+            <div class="row mb-3">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>@Model.successMessage</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        }
+</div>
+}
+ <br />
+
+ <div class="list-group">
+    @foreach (var forum in Model.ListForum){
+        <div class="list-group-item list-group-item-action list-group-item-primary disabled">
+            <h4>@forum.profile</h4>
+            @{
+                Console.WriteLine(forum.profile);
+            }
+            <p>@forum.ForumComment</p>
+            <span>Date sended : @forum.CreateAt</span>
+        </div>
+    }
+ </div>

@@ -48,6 +48,8 @@ namespace Arts.Pages.Admin
                         command.ExecuteNonQuery();
                     }
                 }
+
+                Response.Redirect("/Admin/ItemAdmin");
             }
             catch (Exception ex)
             {

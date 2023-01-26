@@ -1,0 +1,30 @@
+﻿@page
+@using System.Data.SqlClient;
+@{
+    int Id = int.Parse(Request.Query["Id"]);
+
+    try
+    {
+        string connectionString = "Data Source=.;Initial Catalog=Arts;Integrated Security=True";
+
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            string sql = "DELETE FROM Gallery WHERE Id = @Id;";
+
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                command.Parameters.AddWithValue("@Id", Id);
+
+                command.ExecuteNonQuery();
+            }
+        }
+
+        Response.Redirect("/Admin/GalleryAdmin");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+        return;
+    }
+}

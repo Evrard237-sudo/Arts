@@ -7,6 +7,7 @@ namespace Arts.Pages.Users
 {
     public class LogInModel : PageModel
     {
+        public List<UserInfo> ListUsers = new List<UserInfo>();
         public UserInfo userInfo = new UserInfo();
         public string errorMessage = "";
         public string successMessage = "";
@@ -39,7 +40,7 @@ namespace Arts.Pages.Users
                 {
                     connection.Open();
                     // Requete sql permettant de verififer si l' utilisateur avec lequel on voudrait se connecter existe
-                    string sql = "SELECT * FROM Users WHERE Useremail = '"+ userInfo.Useremail +"' AND Userpassword = '" + userInfo.Userpassword + "' AND Username = '" + userInfo.Username +"'";
+                    string sql = "SELECT * FROM Users WHERE Useremail = '" + userInfo.Useremail + "' AND Userpassword = '" + userInfo.Userpassword + "' AND Username = '" + userInfo.Username + "'";
                     using (SqlDataAdapter sda = new SqlDataAdapter(sql, connection))
                     {
                         using (DataTable dt = new DataTable())
@@ -67,7 +68,28 @@ namespace Arts.Pages.Users
                             }
                         }
                     }
+                    using (SqlCommand command = new SqlCommand(sql, connection))
+                    {// La lecture des donnees 
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                UserInfo userInfo = new UserInfo();
+                                userInfo.Id = "" + reader.GetInt32(0);
+                                Console.WriteLine(userInfo.Id);
+                                HttpContext.Session.SetString("IdUser", userInfo.Id);
+                                userInfo.Username = reader.GetString(1);
+                                userInfo.Useremail = reader.GetString(2);
+                                userInfo.Userpassword = reader.GetString(3);
+                                userInfo.IsAdmin = "" + reader.GetInt32(4);
+                                userInfo.CreateAt = reader.GetDateTime(5).ToString();
+
+                                ListUsers.Add(userInfo);
+                            }
+                        }
+                    }
                 }
+                
             }
             catch (Exception ex)
             {

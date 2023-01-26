@@ -1,0 +1,75 @@
+﻿@page
+@model Arts.Pages.Artists.ListArtistModel
+@{
+    ViewData["Title"] = "Artist list";
+}
+
+<nav class="py-2 bg-light border-bottom fixed-top">
+    <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+            <li class="nav-item"><a class="nav-link link-dark px-2" aria-current="page" asp-area="" asp-page="/Index">Home</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Items/ListItem" asp-area="">Creation</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Gallery/ListGallery" asp-area="">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2 disabled" asp-page="/Artists/ListArtist" asp-area="">artists</a></li>
+            @if (Model.IsAdmin == 0)
+            {
+                <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Admin/ItemAdmin" asp-area="">Administration</a></li>
+            }
+        </ul>
+        @if (Model.ReturnUsername == null)
+        {
+            <ul class="nav d-flex">
+                <li class="nav-item me-2"><a class="nav-link link-dark btn btn-outline-primary m-auto" asp-area="" asp-page="/Users/LogIn">Log In</a></li>
+                <li class="nav-item"><a class="nav-link link-dark btn btn-primary m-auto" asp-area="" asp-page="/Users/SignUp">Sign up</a></li>
+            </ul>
+        }
+        else
+        {
+            <ul class="nav d-flex">
+                <li class="nav-item me-2"><span class="nav-link link-dark m-auto">@Model.ReturnUsername</span></li>
+                <li class="nav-item"><form method="post"><button class="nav-link link-dark btn btn-outline-secondary m-auto" asp-page="/Index" type="submit">Log out</button></form></li>
+            </ul>
+        }
+
+    </div>
+</nav>
+<header class="py-3 mb-4 border-bottom">
+    <div class="container d-flex flex-wrap justify-content-center">
+        <a class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none" asp-area="" asp-page="/Index">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap" /></svg>
+            <span class="fs-4">Art's</span>
+        </a>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </div>
+</header>
+
+<h1 class="text-capitalize text-center">Other Artist</h1>
+
+<div class="container">
+    <div class="album py-5 bg-light">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            @foreach (var item in Model.ListArtist)
+            {
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('@item.ArtistThumbnail');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">@item.ArtistName</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="d-flex align-items-center me-3">
+                                    <a href="@item.ArtistUrl" class="link-light">Follow</a>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <span>@item.ArtistEmail</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
