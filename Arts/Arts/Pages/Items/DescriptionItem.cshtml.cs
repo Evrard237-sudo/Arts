@@ -96,6 +96,7 @@ namespace Arts.Pages.Items
                             {
                                 while (reader2.Read())
                                 {
+                                    Forum forum = new Forum();
                                     forum.Id = reader2.GetInt32(0);
                                     forum.ForumComment = reader2.GetString(1);
                                     forum.CreateAt = reader2.GetDateTime(2).ToString();

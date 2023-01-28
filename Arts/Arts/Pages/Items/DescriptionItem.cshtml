@@ -61,8 +61,8 @@
             <span class="input-group-text">Commentary</span>
             <textarea class="form-control" aria-label="text area" style="height: 80px;" name="ForumComment"></textarea>
         </div>
-        <div class="input-group m-2">
-            <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="input-group">
+            <button type="submit" class="btn btn-primary mt-2">Submit</button>
         </div>
     </form>
         @if (Model.successMessage.Length > 0)
@@ -76,17 +76,28 @@
         }
 </div>
 }
+
+@if(Model.ReturnUsername != null){
+    <p class="container"> 
+        <a class="btn btn-success text-center mt-2">
+            Ajouter dans le panier 
+        </a>
+    </p>
+}
  <br />
 
- <div class="list-group">
-    @foreach (var forum in Model.ListForum){
-        <div class="list-group-item list-group-item-action list-group-item-primary disabled">
-            <h4>@forum.profile</h4>
-            @{
-                Console.WriteLine(forum.profile);
-            }
-            <p>@forum.ForumComment</p>
-            <span>Date sended : @forum.CreateAt</span>
-        </div>
-    }
- </div>
+<div class="container">
+    <div class="list-group">
+        @foreach (var forum in Model.ListForum)
+        {
+            <div class="list-group-item list-group-item-action list-group-item-primary m-2 disabled">
+                <h4>@forum.profile</h4>
+                @{
+                    Console.WriteLine(forum.profile);
+                }
+                <p>@forum.ForumComment</p>
+                <span>Date sended : @forum.CreateAt</span>
+            </div>
+        }
+    </div>
+</div>
