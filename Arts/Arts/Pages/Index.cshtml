@@ -23,6 +23,7 @@
         }
         else{
             <ul class="nav d-flex">
+                <li class="nav-item"><a class="nav-link link-secondary m-auto" href="/Carts/ItemsListInCart"> See cart</a></li>
                 <li class="nav-item me-2"><span class="nav-link link-dark m-auto">@Model.ReturnUsername</span></li>
                 <li class="nav-item"><form method="post"><button class="nav-link link-dark btn btn-outline-secondary m-auto" asp-page="/Index" type="submit">Log out</button></form></li>
             </ul>
@@ -109,21 +110,21 @@
 
                 <h2>PAINTING</h2>
                 <p>I do multiple painting works...</p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="/Items/ItemPaint">View details &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <img src="~/Ressources/img11.jpg" class="bd-placeholder-img rounded-circle" alt="Slider 1" width="140" height="140" loading="lazy">
 
                 <h2>SCULPTURE</h2>
                 <p>I also do multiple works of sculpture art ...</p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="/Items/ItemSculpture">View details &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <img src="~/Ressources/img13.jpg" class="bd-placeholder-img rounded-circle" alt="Slider 1" width="140" height="140" loading="lazy">
 
                 <h2>HOME DECO</h2>
                 <p>I can also do home deco ...</p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="/Items/ItemHomeDeco">View details &raquo;</a></p>
             </div>
         </div>
 

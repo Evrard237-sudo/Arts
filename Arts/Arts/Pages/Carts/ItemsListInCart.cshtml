@@ -1,0 +1,58 @@
+﻿@page
+@model Arts.Pages.Carts.ItemsListInCartModel
+@{
+    ViewData["Title"] = "Your cart";
+}
+
+<nav class="py-2 bg-light border-bottom fixed-top">
+    <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+            <li class="nav-item"><a class="nav-link link-dark px-2" aria-current="page" asp-area="" asp-page="/Index">Home</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Items/ListItem" asp-area="">Creation</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Gallery/ListGallery" asp-area="">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Artists/ListArtist" asp-area="">artists</a></li>
+            @if (Model.IsAdmin == 0)
+            {
+                <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Admin/ItemAdmin" asp-area="">Administration</a></li>
+            }
+        </ul>
+        @if (Model.ReturnUsername == null)
+        {
+            <ul class="nav d-flex">
+                <li class="nav-item me-2"><a class="nav-link link-dark btn btn-outline-primary m-auto" asp-area="" asp-page="/Users/LogIn">Log In</a></li>
+                <li class="nav-item"><a class="nav-link link-dark btn btn-primary m-auto" asp-area="" asp-page="/Users/SignUp">Sign up</a></li>
+            </ul>
+        }
+        else
+        {
+            <ul class="nav d-flex">
+                <li class="nav-item me-2"><span class="nav-link link-dark m-auto">@Model.ReturnUsername</span></li>
+                <li class="nav-item"><a class="nav-link link-dark btn btn-outline-secondary m-auto" asp-page="/Users/LogOut" type="submit">Log out</a></li>
+            </ul>
+        }
+
+    </div>
+</nav>
+
+<br />
+
+<div class="container">
+    @if (Model.CartList.Count != 0 )
+    {
+        @foreach (var item in Model.CartList)
+        {
+            <h1>@item.name</h1>
+            <img src="@item.thumnail" alt="Description of @item.name" width="400" height="400" />
+            <h2>@item.price FCFA</h2>
+            <br />
+        }
+        <br />
+        <a class="btn btn-outline-danger m-auto" href="/Carts/EmptyCart?Id=@Model.ReturnId">Vider le panier</a>
+        <a class="btn btn-outline-info m-auto">Order</a>
+    }
+    else{
+        <h1 class="h-100">Votre panier est vide</h1>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br />
+    }
+</div>

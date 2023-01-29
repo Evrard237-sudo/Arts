@@ -10,6 +10,7 @@ namespace Arts.Pages
         private readonly ILogger<IndexModel> _logger;
         public string? ReturnUsername { get; set; }
         public int ? IsAdmin { get; set; }
+        public int? ReturnId { get; set; }
 
         public IndexModel(ILogger<IndexModel> logger)
         {
@@ -17,7 +18,7 @@ namespace Arts.Pages
         }
 
         public void OnGet()
-        {
+        { 
             ReturnUsername = HttpContext.Session.GetString("username");
 
             try

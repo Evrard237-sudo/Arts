@@ -11,5 +11,6 @@ Site d' esposition et de vente d' oeuvre d' art
 [x] Voir dtails des création
 [x] Faire un commentaire
 [x] Entrer dans le menu d' administration
-[] Ajouter un produit dans le panier
+[x] Ajouter un produit dans le panier
 [] Generer la facture (En cours de validité)
+[] Rechercher une création

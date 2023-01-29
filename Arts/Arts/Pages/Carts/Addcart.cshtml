@@ -1,0 +1,34 @@
+﻿@page
+@using System.Data.SqlClient
+@{
+
+    int IdItem = int.Parse(Request.Query["Id"]);
+    int IdUSer = int.Parse(s: HttpContext.Session.GetString("IdUser"));
+
+    Console.WriteLine("Id User : " + IdUSer + "IdItem : " +IdItem);
+
+    try
+    {
+        string connectionString = "Data Source=.;Initial Catalog=Arts;Integrated Security=True";
+
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            string sql = "INSERT INTO Carts " +
+                         "(id_user, id_items) " +
+                         "VALUES (@id_user, @id_items);";
+            using(SqlCommand command = new SqlCommand(sql, connection)){
+                command.Parameters.AddWithValue("@id_user", IdUSer);
+                command.Parameters.AddWithValue("@id_items", IdItem);
+
+                command.ExecuteNonQuery();
+            }
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+    }
+
+    Response.Redirect("/Items/ListItem");
+}

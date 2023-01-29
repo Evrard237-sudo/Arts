@@ -1,0 +1,69 @@
+﻿@page
+@model Arts.Pages.Items.ItemSculptureModel
+@{
+    ViewData["Title"] = "Sculpture";
+}
+
+<nav class="py-2 bg-light border-bottom fixed-top">
+    <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+            <li class="nav-item"><a class="nav-link link-dark px-2" aria-current="page" asp-area="" asp-page="/Index">Home</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2 disabled" asp-page="/Items/ListItem" asp-area="">Creation</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Gallery/ListGallery" asp-area="">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Artists/ListArtist" asp-area="">artists</a></li>
+            @if (Model.IsAdmin == 0)
+            {
+                <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Admin/ItemAdmin" asp-area="">Administration</a></li>
+            }
+        </ul>
+        @if (Model.ReturnUsername == null)
+        {
+            <ul class="nav d-flex">
+                <li class="nav-item me-2"><a class="nav-link link-dark btn btn-outline-primary m-auto" asp-area="" asp-page="/Users/LogIn">Log In</a></li>
+                <li class="nav-item"><a class="nav-link link-dark btn btn-primary m-auto" asp-area="" asp-page="/Users/SignUp">Sign up</a></li>
+            </ul>
+        }
+        else
+        {
+            <ul class="nav d-flex">
+                <li class="nav-item me-2"><span class="nav-link link-dark m-auto">@Model.ReturnUsername</span></li>
+                <li class="nav-item"><form method="post"><button class="nav-link link-dark btn btn-outline-secondary m-auto" asp-page="/Index" type="submit">Log out</button></form></li>
+            </ul>
+        }
+
+    </div>
+</nav>
+
+<div class="album py-5 bg-light">
+    <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            @foreach (var item in Model.ListItem)
+            {
+                <div class="col">
+                    <div class="card">
+                        <img class="bd-placeholder-img card-img-top" src="@item.ItemThumbnail" alt="Item image" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false" />
+
+                        <div class="card-body">
+                            <h5 class="card-title">@item.ItemName</h5>
+                            <p class="card-text">@item.ItemDescription</p>
+                            <div class="d-flex justify-content-between">
+
+                                @if (item.ItemPrice == "0")
+                                {
+                                    <p class="card-text">Not for sale</p>
+                                }
+                                else
+                                {
+                                    <p>@item.ItemPrice FCFA</p>
+                                }
+                                <!--<p>@item.ItemPrice</p>-->
+                                <a class="btn btn-primary" href="/Items/DescriptionItem?Id=@item.Id">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

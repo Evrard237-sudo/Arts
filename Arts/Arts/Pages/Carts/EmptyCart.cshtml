@@ -1,0 +1,25 @@
+﻿@page 
+@using System.Data.SqlClient
+@{
+    int Id = int.Parse(Request.Query["Id"]);
+
+    try
+    {
+        string connectionString = "Data Source=.;Initial Catalog=Arts;Integrated Security=True";
+        using (SqlConnection connection = new SqlConnection(connectionString)){
+            connection.Open();
+            string sql = "DELETE FROM Carts WHERE id_user = @id_user;";
+            using (SqlCommand command = new SqlCommand(sql, connection)){
+                command.Parameters.AddWithValue("@id_user", Id);
+
+                command.ExecuteNonQuery();
+            }
+        }
+
+        Response.Redirect("/");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+    }
+}
