@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VNOfBzNCTJA3Uiraoa+vFOaNaoeKb2LK6UghZMqPckA=",
+  "Hash": "xAVddDuJd5c44RPaQf985NQUZ3LlocFOcdWsYFfFKys=",
   "Source": "Arts",
   "BasePath": "_content/Arts",
   "Mode": "Default",
@@ -1394,6 +1394,23 @@
       "OriginalItemSpec": "wwwroot\\Ressources\\user_60px.png"
     },
     {
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\0f6bbd94fc8e4b8d801a6ca749a028e7.jpg",
+      "SourceId": "Arts",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
+      "BasePath": "_content/Arts",
+      "RelativePath": "UploadImage/0f6bbd94fc8e4b8d801a6ca749a028e7.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadImage\\0f6bbd94fc8e4b8d801a6ca749a028e7.jpg"
+    },
+    {
       "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\adrien-converse-WYmPNSUyfNg-unsplash.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
@@ -1443,6 +1460,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UploadImage\\alex-padurariu-qOhrL25qXts-unsplash.jpg"
+    },
+    {
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\arthur-lambillotte-7JLIzPaUOQM-unsplash.jpg",
+      "SourceId": "Arts",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
+      "BasePath": "_content/Arts",
+      "RelativePath": "UploadImage/arthur-lambillotte-7JLIzPaUOQM-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadImage\\arthur-lambillotte-7JLIzPaUOQM-unsplash.jpg"
     },
     {
       "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\drew-hays-q5EGoKHQEe8-unsplash.jpg",
@@ -1632,6 +1666,23 @@
       "OriginalItemSpec": "wwwroot\\UploadImage\\photo-1502672260266-1c1ef2d93688.webp"
     },
     {
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\photo-1607882548084-09c4a4b48d2c.webp",
+      "SourceId": "Arts",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
+      "BasePath": "_content/Arts",
+      "RelativePath": "UploadImage/photo-1607882548084-09c4a4b48d2c.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadImage\\photo-1607882548084-09c4a4b48d2c.webp"
+    },
+    {
       "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\steve-johnson-dQZicNGPp8E-unsplash.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
@@ -1698,6 +1749,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UploadImage\\thomas-tucker-KraXdvWzKNw-unsplash.jpg"
+    },
+    {
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\william-zvWxlTd3IP0-unsplash.jpg",
+      "SourceId": "Arts",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
+      "BasePath": "_content/Arts",
+      "RelativePath": "UploadImage/william-zvWxlTd3IP0-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadImage\\william-zvWxlTd3IP0-unsplash.jpg"
     }
   ]
 }
