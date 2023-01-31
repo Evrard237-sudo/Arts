@@ -1,4 +1,5 @@
 ﻿using Arts.Pages.Users;
+using Arts.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data.SqlClient;
@@ -10,7 +11,8 @@ namespace Arts.Pages
         private readonly ILogger<IndexModel> _logger;
         public string? ReturnUsername { get; set; }
         public int ? IsAdmin { get; set; }
-        public int? ReturnId { get; set; }
+        public int ReturnId { get; set; }
+        public int Count { get; set; }
 
         public IndexModel(ILogger<IndexModel> logger)
         {
@@ -19,6 +21,8 @@ namespace Arts.Pages
 
         public void OnGet()
         { 
+            CountNbreItem nbreItem = new CountNbreItem();
+            
             ReturnUsername = HttpContext.Session.GetString("username");
 
             try
@@ -47,6 +51,7 @@ namespace Arts.Pages
             {
                 Console.WriteLine(ex.Message);
             }
+            
         }
 
         public void OnPost()

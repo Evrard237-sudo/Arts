@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lZR4oe+OMvwHUFshfss8f2Pmg59mCSEllQFCYdJVuRw=",
+  "Hash": "VNOfBzNCTJA3Uiraoa+vFOaNaoeKb2LK6UghZMqPckA=",
   "Source": "Arts",
   "BasePath": "_content/Arts",
   "Mode": "Default",
@@ -1579,6 +1579,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UploadImage\\pawel-czerwinski-MxJ4yaSf0NY-unsplash.jpg"
+    },
+    {
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\pawel-czerwinski-t5rPa0XnyHg-unsplash.jpg",
+      "SourceId": "Arts",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
+      "BasePath": "_content/Arts",
+      "RelativePath": "UploadImage/pawel-czerwinski-t5rPa0XnyHg-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadImage\\pawel-czerwinski-t5rPa0XnyHg-unsplash.jpg"
     },
     {
       "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\photo-1487600849525-7d8eccadd679.webp",
