@@ -1,6 +1,7 @@
 using Arts.Pages.Users;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Primitives;
 using System.Data.SqlClient;
 
 namespace Arts.Pages.Bills
@@ -27,13 +28,13 @@ namespace Arts.Pages.Bills
                         {
                             if (reader.Read())
                             {
-                                    
-                                    userInfo.Id = "" + reader.GetInt32(0);
-                                    userInfo.Username = reader.GetString(1);
-                                    userInfo.Useremail = reader.GetString(2);
-                                    userInfo.Userpassword = reader.GetString(3);
-                                    userInfo.IsAdmin = "" + reader.GetInt32(4);
-                                    userInfo.CreateAt = reader.GetDateTime(5).ToString();
+
+                                userInfo.Id = "" + reader.GetInt32(0);
+                                userInfo.Username = reader.GetString(1);
+                                userInfo.Useremail = reader.GetString(2);
+                                userInfo.Userpassword = reader.GetString(3);
+                                userInfo.IsAdmin = "" + reader.GetInt32(4);
+                                userInfo.CreateAt = reader.GetDateTime(5).ToString();
                             }
                         }
                     }
@@ -44,6 +45,11 @@ namespace Arts.Pages.Bills
             {
                 Console.WriteLine(ex.Message);
             }
+        }
+
+        public void OnPost()
+        {
+
         }
     }
 }
