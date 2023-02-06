@@ -11,9 +11,9 @@ namespace Arts.Pages.Items
         public int? IsAdmin { get; set; }
         public string? ReturnUsername { get; set; }
         public int? ReturnId { get; set; }
-        public Forum forum = new Forum();
-        public List<Forum> ListForum = new List<Forum>();
-        public ItemInfo itemInfo = new ItemInfo();
+        public Models.Forum forum = new Models.Forum();
+        public List<Models.Forum> ListForum = new List<Models.Forum>();
+        public Models.ItemInfo itemInfo = new Models.ItemInfo();
         public string errorMessage = "";
         public string successMessage = "";
         public void OnGet()
@@ -45,6 +45,7 @@ namespace Arts.Pages.Items
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                Response.Redirect("/Error404");
             }
             try
             {
@@ -96,7 +97,7 @@ namespace Arts.Pages.Items
                             {
                                 while (reader2.Read())
                                 {
-                                    Forum forum = new Forum();
+                                    Models.Forum forum = new Models.Forum();
                                     forum.Id = reader2.GetInt32(0);
                                     forum.ForumComment = reader2.GetString(1);
                                     forum.CreateAt = reader2.GetDateTime(2).ToString();
@@ -119,6 +120,8 @@ namespace Arts.Pages.Items
             catch (Exception ex)
             {
                 errorMessage = ex.Message;
+                Console.WriteLine(errorMessage);
+                Response.Redirect("/Error404");
             }
         }
 
@@ -153,17 +156,9 @@ namespace Arts.Pages.Items
             catch (Exception ex)
             {
                 errorMessage = ex.Message;
+                Console.WriteLine(errorMessage);
+                Response.Redirect("/Error404");
             }
         }
-    }
-
-    public class Forum
-    {
-        public int Id;
-        public string? ForumComment;
-        public string? CreateAt;
-        public int IdUser;
-        public int IdItem;
-        public string? profile;
     }
 }

@@ -9,7 +9,7 @@ namespace Arts.Pages.Users
         public string? ReturnUsername { get; set; }
         public int? IsAdmin { get; set; }
         // La liste des utilisateurs
-        public List<UserInfo> ListUsers = new List<UserInfo>();
+        public List<Models.UserInfo> ListUsers = new List<Models.UserInfo>();
         public void OnGet()
         {
             ReturnUsername = HttpContext.Session.GetString("username");
@@ -40,6 +40,7 @@ namespace Arts.Pages.Users
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                Response.Redirect("/Error404");
             }
 
             try
@@ -57,7 +58,7 @@ namespace Arts.Pages.Users
                         {
                             while (reader.Read())
                             {
-                                UserInfo userInfo = new UserInfo();
+                                Models.UserInfo userInfo = new Models.UserInfo();
                                 userInfo.Id = "" + reader.GetInt32(0);
                                 userInfo.Username = reader.GetString(1);
                                 userInfo.Useremail = reader.GetString(2);
@@ -75,17 +76,9 @@ namespace Arts.Pages.Users
             {
                 // Si la lecture n' est pas possible, on retourne une exeption
                 Console.WriteLine("Exception: " + ex.ToString());
+                Response.Redirect("/Error404");
             }
         }
     }
     // La classe UserInfo est la classe qui dont les donnees vont servir pour etre connecter au donnees de la BD
-    public class UserInfo
-    {
-        public string? Id;
-        public string? Username;
-        public string? Userpassword;
-        public string? Useremail;
-        public string? IsAdmin;
-        public string? CreateAt;
-    }
 }

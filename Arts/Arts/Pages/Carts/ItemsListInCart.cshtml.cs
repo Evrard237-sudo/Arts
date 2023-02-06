@@ -6,7 +6,7 @@ namespace Arts.Pages.Carts
 {
     public class ItemsListInCartModel : PageModel
     {
-        public List<Carts> CartList = new List<Carts>();
+        public List<Models.Carts> CartList = new List<Models.Carts>();
         public int? IsAdmin { get; set; }
         public string? ReturnUsername { get; set; }
         public int? ReturnId { get; set; }
@@ -38,6 +38,7 @@ namespace Arts.Pages.Carts
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                Response.Redirect("/Error404");
             }
             try
             {
@@ -51,6 +52,11 @@ namespace Arts.Pages.Carts
                          "JOIN Carts c " +
                          "ON(i.Id = c.id_items) " +
                          "WHERE c.id_user = @id_user; ";
+                    string sql2 = "SELECT SUM(ItemPrice) " +
+                        "FROM Items i " +
+                        "JOIN Carts c " +
+                        "ON i.Id = c.id_items " +
+                        "WHERE c.id_user = @id_user; ";
 
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
@@ -59,7 +65,7 @@ namespace Arts.Pages.Carts
                         {
                             while (reader.Read())
                             {
-                                Carts cart = new Carts();
+                                Models.Carts cart = new Models.Carts();
                                 cart.id_item = reader.GetInt32(0);
                                 cart.name = reader.GetString(1);
                                 cart.thumnail = reader.GetString(2);
@@ -69,12 +75,28 @@ namespace Arts.Pages.Carts
                                 CartList.Add(cart);
                             }
                         }
+
+                    }
+
+                    using (SqlCommand command2 = new SqlCommand(sql2, connection))
+                    {
+                        command2.Parameters.AddWithValue("@id_user", ReturnId);
+                        using (SqlDataReader reader2 = command2.ExecuteReader())
+                        {
+                            if (reader2.Read())
+                            {
+                                HttpContext.Session.SetString("total", reader2.GetDouble(0).ToString());
+                                string test = HttpContext.Session.GetString("total");
+                                Console.WriteLine(test);
+                            }
+                        }
                     }
                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                Response.Redirect("/Error404");
             }
         }
     }

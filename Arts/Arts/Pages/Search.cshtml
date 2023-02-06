@@ -1,0 +1,68 @@
+﻿@page
+@model Arts.Pages.SearchModel
+@{
+    ViewData["TItle"] = "Searching element";
+}
+
+<div class="album py-5 bg-light">
+    <div class="container">
+
+        <h1>Items</h1>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            @foreach (var item in Model.itemList)
+            {
+                <div class="col">
+                    <div class="card">
+                        <img class="bd-placeholder-img card-img-top" src="@item.ItemThumbnail" alt="Item image" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false" />
+
+                        <div class="card-body">
+                            <h5 class="card-title">@item.ItemName</h5>
+                            <p class="card-text">@item.ItemDescription</p>
+                            <div class="d-flex justify-content-between">
+
+                                @if (item.ItemPrice == "0")
+                                {
+                                    <p class="card-text">Not for sale</p>
+                                }
+                                else
+                                {
+                                    <p>@item.ItemPrice FCFA</p>
+                                }
+                                <!--<p>@item.ItemPrice</p>-->
+                                <a class="btn btn-primary" href="/Items/DescriptionItem?Id=@item.Id">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Artists</h1>
+
+    <div class="album py-5 bg-light">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            @foreach (var artist in Model.artistList)
+            {
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('@artist.ArtistThumbnail');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">@artist.ArtistName</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="d-flex align-items-center me-3">
+                                    <a href="@artist.ArtistUrl" class="link-light">Follow</a>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <span>@artist.ArtistEmail</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

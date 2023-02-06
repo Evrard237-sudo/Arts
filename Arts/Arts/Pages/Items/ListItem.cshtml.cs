@@ -8,7 +8,7 @@ namespace Arts.Pages.Items
     public class ListItemModel : PageModel
     {
         public int? IsAdmin { get; set; }
-        public List<ItemInfo> ListItem = new List<ItemInfo>();
+        public List<Models.ItemInfo> ListItem = new List<Models.ItemInfo>();
         public string? ReturnUsername { get; set; }
         public void OnGet()
         {
@@ -53,7 +53,7 @@ namespace Arts.Pages.Items
                         {
                             while (reader.Read())
                             {
-                                ItemInfo item = new ItemInfo();
+                                Models.ItemInfo item = new Models.ItemInfo();
                                 item.Id = reader.GetInt32(0);
                                 item.ItemCategory = reader.GetString(1);
                                 item.ItemName = reader.GetString(2);
@@ -71,6 +71,7 @@ namespace Arts.Pages.Items
             catch (Exception ex)
             {
                 Console.WriteLine("Exeption : " + ex.Message);
+                Response.Redirect("/Error404");
             }
         }
 

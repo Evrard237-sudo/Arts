@@ -28,6 +28,7 @@
     catch (Exception ex)
     {
         Console.WriteLine(ex.Message);
+        Response.Redirect("/Error404");
     }
 
     Response.Redirect("/Items/ListItem");

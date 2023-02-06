@@ -12,13 +12,19 @@ CREATE TABLE [dbo].[Artists] (
 );
 
 CREATE TABLE [dbo].[Bills] (
-    [Id]          INT           IDENTITY (1, 1) NOT NULL,
-    [PaymentMode] NVARCHAR (60) NOT NULL,
-    [TotalPrice]  FLOAT (53)    NULL,
-    [CreateAt]    DATETIME      NOT NULL,
-    [id_cart]     INT           NOT NULL,
+    [Id]               INT            IDENTITY (1, 1) NOT NULL,
+    [PaymentMode]      NVARCHAR (60)  NOT NULL,
+    [TotalPrice]       FLOAT (53)     NULL,
+    [CreateAt]         DATETIME       NOT NULL DEFAULT getdate(),
+    [Country]          NVARCHAR (60)  NOT NULL,
+    [City]             NVARCHAR (60)  NOT NULL,
+    [CardName]         NVARCHAR (100) NULL,
+    [CardCreditNumber] INT            NULL,
+    [id_user]          INT            NOT NULL,
+    [Adress]           NVARCHAR (50)  NOT NULL,
+    [DetailAdress]     NVARCHAR (50)  NULL,
     CONSTRAINT [PK_Bills] PRIMARY KEY CLUSTERED ([Id] ASC),
-    CONSTRAINT [FK_Bills_Carts] FOREIGN KEY ([id_cart]) REFERENCES [dbo].[Carts] ([Id])
+    CONSTRAINT [FK_Bills_Users] FOREIGN KEY ([id_user]) REFERENCES [dbo].[Users] ([Id])
 );
 
 CREATE TABLE [dbo].[Carts] (
@@ -68,7 +74,6 @@ CREATE TABLE [dbo].[Users] (
     [CreateAt]     DATETIME      CONSTRAINT [DF_Users_CreateAt] DEFAULT (getdate()) NOT NULL,
     CONSTRAINT [PK_Users] PRIMARY KEY CLUSTERED ([Id] ASC)
 );
-
 
 GO
 CREATE NONCLUSTERED INDEX [IX_Users]

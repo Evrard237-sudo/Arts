@@ -9,7 +9,7 @@ namespace Arts.Pages.Artists
     {
         public string? ReturnUsername { get; set; }
         public int? IsAdmin { get; set; }
-        public List<ArtistInfo> ListArtist = new List<ArtistInfo>();
+        public List<Models.ArtistInfo> ListArtist = new List<Models.ArtistInfo>();
         public void OnGet()
         {
             ReturnUsername = HttpContext.Session.GetString("username");
@@ -54,7 +54,7 @@ namespace Arts.Pages.Artists
                         {
                             while (reader.Read())
                             {
-                                ArtistInfo artist = new ArtistInfo();
+                                Models.ArtistInfo artist = new Models.ArtistInfo();
                                 artist.Id = reader.GetInt32(0);
                                 artist.ArtistName = reader.GetString(1);
                                 artist.ArtistEmail = reader.GetString(2);

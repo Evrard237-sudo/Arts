@@ -9,7 +9,7 @@ namespace Arts.Pages.Gallery
     {
         public string? ReturnUsername { get; set; }
         public int? IsAdmin { get; set; }
-        public List<galleryInfo> ListGallery = new List<galleryInfo>();
+        public List<Models.galleryInfo> ListGallery = new List<Models.galleryInfo>();
         public void OnGet()
         {
             ReturnUsername = HttpContext.Session.GetString("username");
@@ -38,6 +38,7 @@ namespace Arts.Pages.Gallery
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                Response.Redirect("/Error404");
             }
 
             try
@@ -54,7 +55,7 @@ namespace Arts.Pages.Gallery
                         {
                             while (reader.Read())
                             {
-                                galleryInfo info = new galleryInfo();
+                                Models.galleryInfo info = new Models.galleryInfo();
                                 info.Id = reader.GetInt32(0);
                                 info.Thumbnail = reader.GetString(1);
                                 info.CreateAt = reader.GetDateTime(2).ToString();
@@ -68,6 +69,7 @@ namespace Arts.Pages.Gallery
             catch (Exception ex)
             {
                 Console.WriteLine("Exeption : " + ex.Message);
+                Response.Redirect("/Error404");
             }
         }
     }

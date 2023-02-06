@@ -6,7 +6,7 @@ namespace Arts.Pages.Users
 {
     public class SignUpModel : PageModel
     {
-        public UserInfo userInfo = new UserInfo();
+        public Models.UserInfo userInfo = new Models.UserInfo();
         public string errorMessage = "";
         public string successMessage = "";
         public void OnGet()

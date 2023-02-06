@@ -5,115 +5,119 @@
 }
 
 
-<nav class="py-2 bg-light border-bottom fixed-top">
-    <div class="container d-flex flex-wrap">
-        <ul class="nav me-auto">
-            <li class="nav-item"><a class="nav-link link-dark px-2" aria-current="page" asp-area="" asp-page="/Index">Home</a></li>
-            <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Items/ListItem" asp-area="">Creation</a></li>
-            <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Gallery/ListGallery" asp-area="">Gallery</a></li>
-            <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Artists/ListArtist" asp-area="">artists</a></li>
-            @if (Model.IsAdmin == 0)
+@if(Model.IsAdmin == 0){
+    <nav class="py-2 bg-light border-bottom fixed-top">
+        <div class="container d-flex flex-wrap">
+            <ul class="nav me-auto">
+                <li class="nav-item"><a class="nav-link link-dark px-2" aria-current="page" asp-area="" asp-page="/Index">Home</a></li>
+                <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Items/ListItem" asp-area="">Creation</a></li>
+                <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Gallery/ListGallery" asp-area="">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link link-dark px-2" asp-page="/Artists/ListArtist" asp-area="">artists</a></li>
+                @if (Model.IsAdmin == 0)
+                {
+                    <li class="nav-item"><a class="nav-link link-dark px-2 disabled" asp-page="/Admin/ItemAdmin" asp-area="">Administration</a></li>
+                }
+            </ul>
+            @if (Model.ReturnUsername == null)
             {
-                <li class="nav-item"><a class="nav-link link-dark px-2 disabled" asp-page="/Admin/ItemAdmin" asp-area="">Administration</a></li>
-            }
-        </ul>
-        @if (Model.ReturnUsername == null)
-        {
-            <ul class="nav d-flex">
-                <li class="nav-item me-2"><a class="nav-link link-dark btn btn-outline-primary m-auto" asp-area="" asp-page="/Users/LogIn">Log In</a></li>
-                <li class="nav-item"><a class="nav-link link-dark btn btn-primary m-auto" asp-area="" asp-page="/Users/SignUp">Sign up</a></li>
-            </ul>
-        }
-        else
-        {
-            <ul class="nav d-flex">
-                <li class="nav-item me-2"><span class="nav-link link-dark m-auto">@Model.ReturnUsername</span></li>
-                <li class="nav-item"><form method="post"><button class="nav-link link-dark btn btn-outline-secondary m-auto" asp-page="/Index" type="submit">Log out</button></form></li>
-            </ul>
-        }
-
-    </div>
-</nav>
-
-<header class="navbar navbar-light sticky-top bg-light text-dark flex-md-nowrap p-3 shadow">
-    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/">Art' s</a>
-    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <input class="form-control  w-100 me-2" type="text" placeholder="Search" aria-label="Search" name="search" />
-</header>
-
-<div class="container-fluid">
-    <div class="row">
-        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
-            <div class="position-sticky pt-3">
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/Admin/ItemAdmin">
-                            <span data-feather="home"></span>
-                            Items
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Admin/ArtistAdmin">
-                            <span data-feather="file"></span>
-                            Artists
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Admin/GalleryAdmin">
-                            <span data-feather="shopping-cart"></span>
-                            Gallery
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active disabled" href="/Users/Index">
-                            <span data-feather="users"></span>
-                            Users
-                        </a>
-                    </li>
+                <ul class="nav d-flex">
+                    <li class="nav-item me-2"><a class="nav-link link-dark btn btn-outline-primary m-auto" asp-area="" asp-page="/Users/LogIn">Log In</a></li>
+                    <li class="nav-item"><a class="nav-link link-dark btn btn-primary m-auto" asp-area="" asp-page="/Users/SignUp">Sign up</a></li>
                 </ul>
-            </div>
-        </nav>
+            }
+            else
+            {
+                <ul class="nav d-flex">
+                    <li class="nav-item me-2"><span class="nav-link link-dark m-auto">@Model.ReturnUsername</span></li>
+                    <li class="nav-item"><form method="post"><button class="nav-link link-dark btn btn-outline-secondary m-auto" asp-page="/Index" type="submit">Log out</button></form></li>
+                </ul>
+            }
 
-        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                <div class="container">
-                    <br />
-                    <h2>List of users</h2>
+        </div>
+    </nav>
 
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>ID</th>
-                                <th>Username</th>
-                                <th>Email</th>
-                                <th>Password</th>
-                                <th>Is Admin</th>
-                                <th>Create At</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <!-- Affiche la liste des utilisateurs qui ont été crée dans la base de données -->
-                            @foreach (var item in Model.ListUsers)
-                            {
-                                <tr>
-                                    <td>@item.Id</td>
-                                    <td>@item.Username</td>
-                                    <td>@item.Useremail</td>
-                                    <td>@item.Userpassword</td>
-                                    <td>@item.IsAdmin</td>
-                                    <td>@item.CreateAt</td>
-                                </tr>
-                            }
-                        </tbody>
-                    </table>
+    <header class="navbar navbar-light sticky-top bg-light text-dark flex-md-nowrap p-3 shadow">
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/">Art' s</a>
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+    </header>
 
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky pt-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/Admin/ItemAdmin">
+                                <span data-feather="home"></span>
+                                Items
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Admin/ArtistAdmin">
+                                <span data-feather="file"></span>
+                                Artists
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Admin/GalleryAdmin">
+                                <span data-feather="shopping-cart"></span>
+                                Gallery
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active disabled" href="/Users/Index">
+                                <span data-feather="users"></span>
+                                Users
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-        </main>
+            </nav>
 
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <div class="container">
+                        <br />
+                        <h2>List of users</h2>
+
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Username</th>
+                                    <th>Email</th>
+                                    <th>Password</th>
+                                    <th>Is Admin</th>
+                                    <th>Create At</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Affiche la liste des utilisateurs qui ont été crée dans la base de données -->
+                                @foreach (var item in Model.ListUsers)
+                                {
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>@item.Username</td>
+                                        <td>@item.Useremail</td>
+                                        <td>@item.Userpassword</td>
+                                        <td>@item.IsAdmin</td>
+                                        <td>@item.CreateAt</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </main>
+
+        </div>
     </div>
-</div>
 
 
+} else{
+    Response.Redirect("/Error404");
+}

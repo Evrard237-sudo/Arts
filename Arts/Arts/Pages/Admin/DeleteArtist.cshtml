@@ -1,4 +1,30 @@
 ﻿@page
-@model Arts.Pages.Admin.DeleteArtistModel
+@using System.Data.SqlClient;
 @{
+    int Id = int.Parse(Request.Query["Id"]);
+
+    try
+    {
+        string connectionString = "Data Source=.;Initial Catalog=Arts;Integrated Security=True";
+
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            string sql = "DELETE FROM Artists WHERE Id = @Id;";
+
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                command.Parameters.AddWithValue("@Id", Id);
+
+                command.ExecuteNonQuery();
+            }
+        }
+
+        Response.Redirect("/Admin/ArtistAdmin");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+        Response.Redirect("/Error404");
+    }
 }

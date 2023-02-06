@@ -7,8 +7,8 @@ namespace Arts.Pages.Users
 {
     public class LogInModel : PageModel
     {
-        public List<UserInfo> ListUsers = new List<UserInfo>();
-        public UserInfo userInfo = new UserInfo();
+        public List<Models.UserInfo> ListUsers = new List<Models.UserInfo>();
+        public Models.UserInfo userInfo = new Models.UserInfo();
         public string errorMessage = "";
         public string successMessage = "";
         public void OnGet()
@@ -74,7 +74,7 @@ namespace Arts.Pages.Users
                         {
                             while (reader.Read())
                             {
-                                UserInfo userInfo = new UserInfo();
+                                Models.UserInfo userInfo = new Models.UserInfo();
                                 userInfo.Id = "" + reader.GetInt32(0);
                                 Console.WriteLine(userInfo.Id);
                                 HttpContext.Session.SetString("IdUser", userInfo.Id);

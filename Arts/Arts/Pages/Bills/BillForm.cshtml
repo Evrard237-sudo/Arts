@@ -4,6 +4,10 @@
     ViewData["Title"] = "Check out ";
 }
 
+@if(Model.success.Length > 0 ){
+    Response.Redirect("/");
+}
+
 <nav class="py-2 bg-light border-bottom fixed-top">
     <div class="container d-flex flex-wrap">
         <ul class="nav me-auto">
@@ -43,8 +47,8 @@
 <div class="container">
     <div class="col-md-7 col-lg-8">
         <h4 class="mb-3">Billing address</h4>
-        <form class="needs-validation" novalidate>
-          <div class="row g-3">
+        <form class="needs-validation" method="post">
+            <div class="row g-3">
 
             <div class="col-12">
               <label for="username" class="form-label">Username</label>
@@ -67,7 +71,7 @@
 
             <div class="col-12">
               <label for="address" class="form-label">Address</label>
-              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+              <input type="text" class="form-control" id="address" placeholder="1234 Main St" name="adress" required>
               <div class="invalid-feedback">
                 Please enter your shipping address.
               </div>
@@ -75,13 +79,13 @@
 
             <div class="col-12">
               <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
-              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite" name="detail">
             </div>
 
             <div class="col-md-5">
               <label for="country" class="form-label">Country</label>
-              <select class="form-select" id="country" required>
-                        <option value="France" selected="selected">France </option>
+              <select class="form-select" id="country" name="country" required>
+                        <option value="France">France </option>
                         <option value="Afghanistan">Afghanistan </option>
                         <option value="Afrique_Centrale">Afrique_Centrale </option>
                         <option value="Afrique_du_sud">Afrique_du_Sud </option>
@@ -117,7 +121,7 @@
                         <option value="Burundi">Burundi </option>
                         <option value="Caiman">Caiman </option>
                         <option value="Cambodge">Cambodge </option>
-                        <option value="Cameroun">Cameroun </option>
+                        <option value="Cameroun" selected="selected">Cameroun </option>
                         <option value="Canada">Canada </option>
                         <option value="Canaries">Canaries </option>
                         <option value="Cap_vert">Cap_Vert </option>
@@ -317,9 +321,13 @@
             </div>
 
             <div class="col-md-4">
-              <label for="state" class="form-label">State</label>
-              <select class="form-select" id="state" required>
-                <option value="">Choose...</option>
+              <label for="city" class="form-label">City</label>
+              <select class="form-select" id="city" required name="city">
+                <option>Yaounde</option>
+                <option>Douala</option>
+                <option>Baffoussam</option>
+                <option>Bertoua</option>
+                <option>Kribi</option>
                 <option>California</option>
               </select>
               <div class="invalid-feedback">
@@ -345,24 +353,20 @@
           <h4 class="mb-3">Payment</h4>
 
           <div class="my-3">
-            <div class="form-check">
-              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
-              <label class="form-check-label" for="credit">Credit card</label>
-            </div>
-            <div class="form-check">
-              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
-              <label class="form-check-label" for="debit">Debit card</label>
-            </div>
-            <div class="form-check">
-              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-              <label class="form-check-label" for="paypal">PayPal</label>
-            </div>
+                <div class="col-md-4">
+                    <select class="form-select" id="state" required name="payment">
+                        <option selected>PayPal</option>
+                        <option>UBA</option>
+                        <option>Express Union</option>
+                        <option>Western Union</option>
+                    </select>
+                </div>
           </div>
 
           <div class="row gy-3">
             <div class="col-md-6">
               <label for="cc-name" class="form-label">Name on card</label>
-              <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                    <input type="text" class="form-control" id="cc-name" placeholder="" name="creditCard" required>
               <small class="text-muted">Full name as displayed on card</small>
               <div class="invalid-feedback">
                 Name on card is required
@@ -371,7 +375,7 @@
 
             <div class="col-md-6">
               <label for="cc-number" class="form-label">Credit card number</label>
-              <input type="text" class="form-control" id="cc-number" placeholder="" required>
+              <input type="text" class="form-control" id="cc-number" placeholder="" name="cardNumber" required>
               <div class="invalid-feedback">
                 Credit card number is required
               </div>

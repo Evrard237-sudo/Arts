@@ -8,7 +8,7 @@ namespace Arts.Pages.Admin
     {
         public string? ReturnUsername { get; set; }
         public int? IsAdmin { get; set; }
-        public List<ArtistInfo> ListArtist = new List<ArtistInfo>();
+        public List<Models.ArtistInfo> ListArtist = new List<Models.ArtistInfo>();
         public void OnGet()
         {
             ReturnUsername = HttpContext.Session.GetString("username");
@@ -57,7 +57,7 @@ namespace Arts.Pages.Admin
                         {
                             while (reader.Read())
                             {
-                                ArtistInfo artist = new ArtistInfo();
+                                Models.ArtistInfo artist = new Models.ArtistInfo();
                                 artist.Id = reader.GetInt32(0);
                                 artist.ArtistName = reader.GetString(1);
                                 artist.ArtistEmail = reader.GetString(2);
@@ -73,16 +73,8 @@ namespace Arts.Pages.Admin
             catch (Exception ex)
             {
                 Console.WriteLine("Exeption : " + ex.Message);
+                Response.Redirect("/Error404");
             }
         }
-    }
-
-    public class ArtistInfo
-    {
-        public int Id;
-        public string? ArtistName;
-        public string? ArtistEmail; 
-        public string? ArtistUrl;
-        public string? ArtistThumbnail;
     }
 }

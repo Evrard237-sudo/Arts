@@ -7,7 +7,7 @@ namespace Arts.Pages.Admin
 {
     public class EditItemModel : PageModel
     {
-        public ItemInfo itemInfo = new ItemInfo();
+        public Models.ItemInfo itemInfo = new Models.ItemInfo();
         public string errorMessage = "";
         public string successMessage = "";
         public void OnGet()
@@ -50,6 +50,7 @@ namespace Arts.Pages.Admin
             {
                 // En cas d' erreurs retourne une exeption
                 errorMessage = ex.Message;
+                Console.WriteLine(errorMessage);
             }
         }
 
@@ -94,7 +95,7 @@ namespace Arts.Pages.Admin
             catch (Exception ex)
             {
                 errorMessage = ex.Message;
-                return;
+                Response.Redirect("/Error404");
             }
         }
     }

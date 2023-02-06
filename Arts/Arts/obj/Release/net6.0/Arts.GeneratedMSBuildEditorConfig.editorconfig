@@ -1,0 +1,148 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Arts
+build_property.RootNamespace = Arts
+build_property.ProjectDir = D:\TRAVAUX ADO .NET\Projet ADO\Arts\Arts\Arts\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\TRAVAUX ADO .NET\Projet ADO\Arts\Arts\Arts
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Admin/ArtistAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQXJ0aXN0QWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Admin/CreateArtist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ3JlYXRlQXJ0aXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Admin/CreateGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ3JlYXRlR2FsbGVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Admin/CreateItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ3JlYXRlSXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Admin/DeleteArtist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVsZXRlQXJ0aXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Admin/DeleteGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVsZXRlR2FsbGVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Admin/DeleteItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVsZXRlSXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Admin/EditArtist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdEFydGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Admin/EditItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdEl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Admin/GalleryAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cR2FsbGVyeUFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Admin/ItemAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSXRlbUFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Artists/ListArtist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aXN0c1xMaXN0QXJ0aXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Bills/BillForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmlsbHNcQmlsbEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Carts/Addcart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydHNcQWRkY2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Carts/EmptyCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydHNcRW1wdHlDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Carts/ItemsListInCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydHNcSXRlbXNMaXN0SW5DYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Gallery/ListGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FsbGVyeVxMaXN0R2FsbGVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Items/DescriptionItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbXNcRGVzY3JpcHRpb25JdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Items/ItemHomeDeco.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbXNcSXRlbUhvbWVEZWNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Items/ItemPaint.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbXNcSXRlbVBhaW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Items/ItemSculpture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbXNcSXRlbVNjdWxwdHVyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Items/ListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbXNcTGlzdEl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Users/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcTG9nSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Users/LogOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcTG9nT3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/Users/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcU2lnblVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TRAVAUX ADO .NET/Projet ADO/Arts/Arts/Arts/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

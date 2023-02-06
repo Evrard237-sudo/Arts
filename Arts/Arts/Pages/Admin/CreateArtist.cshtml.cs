@@ -9,7 +9,7 @@ namespace Arts.Pages.Admin
     {
         public string errorMessage = "";
         public string successMessage = "";
-        public ArtistInfo artistInfo = new ArtistInfo();
+        public Models.ArtistInfo artistInfo = new Models.ArtistInfo();
         public void OnGet()
         {
         }
@@ -52,6 +52,7 @@ namespace Arts.Pages.Admin
             catch (Exception ex)
             {
                 errorMessage = ex.Message;
+                Response.Redirect("/Error404");
             }
         }
     }

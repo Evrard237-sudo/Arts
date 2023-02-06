@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xAVddDuJd5c44RPaQf985NQUZ3LlocFOcdWsYFfFKys=",
+  "Hash": "beZzF6h8aiEHXlVkWdVQwnFSD3TRN5aH6bC/Uc2AzKM=",
   "Source": "Arts",
   "BasePath": "_content/Arts",
   "Mode": "Default",
@@ -1411,6 +1411,23 @@
       "OriginalItemSpec": "wwwroot\\UploadImage\\0f6bbd94fc8e4b8d801a6ca749a028e7.jpg"
     },
     {
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\abdullah-khudabardi-GDg21-_-ryU-unsplash.jpg",
+      "SourceId": "Arts",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
+      "BasePath": "_content/Arts",
+      "RelativePath": "UploadImage/abdullah-khudabardi-GDg21-_-ryU-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadImage\\abdullah-khudabardi-GDg21-_-ryU-unsplash.jpg"
+    },
+    {
       "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\adrien-converse-WYmPNSUyfNg-unsplash.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
@@ -1547,6 +1564,40 @@
       "OriginalItemSpec": "wwwroot\\UploadImage\\ksenia-ya-mY_URgDbQ8U-unsplash.jpg"
     },
     {
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\lucas-kapla-wQLAGv4_OYs-unsplash (1).jpg",
+      "SourceId": "Arts",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
+      "BasePath": "_content/Arts",
+      "RelativePath": "UploadImage/lucas-kapla-wQLAGv4_OYs-unsplash (1).jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadImage\\lucas-kapla-wQLAGv4_OYs-unsplash (1).jpg"
+    },
+    {
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\lucas-kapla-wQLAGv4_OYs-unsplash.jpg",
+      "SourceId": "Arts",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
+      "BasePath": "_content/Arts",
+      "RelativePath": "UploadImage/lucas-kapla-wQLAGv4_OYs-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadImage\\lucas-kapla-wQLAGv4_OYs-unsplash.jpg"
+    },
+    {
       "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\marco-bianchetti-OdLRPlvytCw-unsplash.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
@@ -1581,6 +1632,23 @@
       "OriginalItemSpec": "wwwroot\\UploadImage\\martin-widenka-IXx0s8CRXYc-unsplash.jpg"
     },
     {
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\nathan-duck-Jo5FUEkhB_4-unsplash.jpg",
+      "SourceId": "Arts",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
+      "BasePath": "_content/Arts",
+      "RelativePath": "UploadImage/nathan-duck-Jo5FUEkhB_4-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadImage\\nathan-duck-Jo5FUEkhB_4-unsplash.jpg"
+    },
+    {
       "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\pawel-czerwinski-HSI1i8jnAJ8-unsplash.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
@@ -1613,6 +1681,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UploadImage\\pawel-czerwinski-MxJ4yaSf0NY-unsplash.jpg"
+    },
+    {
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\pawel-czerwinski-NTYYL9Eb9y8-unsplash.jpg",
+      "SourceId": "Arts",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
+      "BasePath": "_content/Arts",
+      "RelativePath": "UploadImage/pawel-czerwinski-NTYYL9Eb9y8-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadImage\\pawel-czerwinski-NTYYL9Eb9y8-unsplash.jpg"
     },
     {
       "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\pawel-czerwinski-t5rPa0XnyHg-unsplash.jpg",

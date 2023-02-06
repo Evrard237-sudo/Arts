@@ -37,9 +37,12 @@
             <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap" /></svg>
             <span class="fs-4">Art's</span>
         </a>
-        <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+        <form class="d-flex" method="post">
+            <input class="form-control me-2" type="search" placeholder="Search" name="search">
+            @{
+                Model.searchingWord = Request.Query["search"];
+            }
+            <a class="btn btn-outline-success" type="submit" href="/Search?s=@Model.searchingWord">Search</a>
         </form>
     </div>
 </header>

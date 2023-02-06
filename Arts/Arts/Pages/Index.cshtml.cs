@@ -13,6 +13,8 @@ namespace Arts.Pages
         public int ? IsAdmin { get; set; }
         public int ReturnId { get; set; }
         public int Count { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public string? searchingWord { get; set; }
 
         public IndexModel(ILogger<IndexModel> logger)
         {
@@ -22,7 +24,7 @@ namespace Arts.Pages
         public void OnGet()
         { 
             CountNbreItem nbreItem = new CountNbreItem();
-            
+
             ReturnUsername = HttpContext.Session.GetString("username");
 
             try
@@ -56,9 +58,12 @@ namespace Arts.Pages
 
         public void OnPost()
         {
-            ReturnUsername = "";
+            /*ReturnUsername = "";
             HttpContext.Session.Remove("username");
-            Response.Redirect("/Index");
+            Response.Redirect("/Index");*/
+
+            
+            Console.WriteLine(searchingWord);
         }
     }
 }

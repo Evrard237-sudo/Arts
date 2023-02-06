@@ -9,7 +9,7 @@ namespace Arts.Pages.Admin
     {
         public string? ReturnUsername { get; set; }
         public int? IsAdmin { get; set; }
-        public List<ItemInfo> ListItem = new List<ItemInfo>();
+        public List<Models.ItemInfo> ListItem = new List<Models.ItemInfo>();
         public void OnGet()
         {
             ReturnUsername = HttpContext.Session.GetString("username");
@@ -56,7 +56,7 @@ namespace Arts.Pages.Admin
                         {
                             while (reader.Read())
                             {
-                                ItemInfo item = new ItemInfo();
+                                Models.ItemInfo item = new Models.ItemInfo();
                                 item.Id = reader.GetInt32(0);
                                 item.ItemCategory = reader.GetString(1);
                                 item.ItemName = reader.GetString(2);
@@ -77,16 +77,5 @@ namespace Arts.Pages.Admin
             }
 
         }
-    }
-
-    public class ItemInfo
-    {
-        public int Id;
-        public string? ItemCategory;
-        public string? ItemName;
-        public string? ItemDescription;
-        public string? ItemThumbnail;
-        public string? ItemPrice;
-        public string? CreateAt ;
     }
 }
