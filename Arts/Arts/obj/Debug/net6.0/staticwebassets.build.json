@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "beZzF6h8aiEHXlVkWdVQwnFSD3TRN5aH6bC/Uc2AzKM=",
+  "Hash": "pa2l0DWReC1YciOl03nEYW9Prst2Y0WgKOZmAyLN2yE=",
   "Source": "Arts",
   "BasePath": "_content/Arts",
   "Mode": "Default",
@@ -1479,6 +1479,23 @@
       "OriginalItemSpec": "wwwroot\\UploadImage\\alex-padurariu-qOhrL25qXts-unsplash.jpg"
     },
     {
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\annie-spratt-V1lmayjfBJc-unsplash.jpg",
+      "SourceId": "Arts",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
+      "BasePath": "_content/Arts",
+      "RelativePath": "UploadImage/annie-spratt-V1lmayjfBJc-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadImage\\annie-spratt-V1lmayjfBJc-unsplash.jpg"
+    },
+    {
       "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\arthur-lambillotte-7JLIzPaUOQM-unsplash.jpg",
       "SourceId": "Arts",
       "SourceType": "Discovered",
@@ -1766,6 +1783,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UploadImage\\photo-1607882548084-09c4a4b48d2c.webp"
+    },
+    {
+      "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\steve-johnson-3Sf_G9m0gcQ-unsplash.jpg",
+      "SourceId": "Arts",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\",
+      "BasePath": "_content/Arts",
+      "RelativePath": "UploadImage/steve-johnson-3Sf_G9m0gcQ-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadImage\\steve-johnson-3Sf_G9m0gcQ-unsplash.jpg"
     },
     {
       "Identity": "D:\\TRAVAUX ADO .NET\\Projet ADO\\Arts\\Arts\\Arts\\wwwroot\\UploadImage\\steve-johnson-dQZicNGPp8E-unsplash.jpg",

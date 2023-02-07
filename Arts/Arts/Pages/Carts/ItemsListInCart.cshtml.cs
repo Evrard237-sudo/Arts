@@ -96,7 +96,6 @@ namespace Arts.Pages.Carts
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                Response.Redirect("/Error404");
             }
         }
     }

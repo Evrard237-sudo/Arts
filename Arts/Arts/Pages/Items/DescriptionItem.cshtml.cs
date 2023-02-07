@@ -131,6 +131,13 @@ namespace Arts.Pages.Items
             int IdItem = int.Parse(Request.Query["Id"]);
             ReturnId = int.Parse(s: HttpContext.Session.GetString("IdUser"));
             Console.WriteLine(ReturnId);
+
+            if(forum.ForumComment.Length == 0)
+            {
+                errorMessage = "Veuillez ecrire un commentaire";
+                return;
+            }
+
             // Sauvegarder le message dans la bd
             try
             {
