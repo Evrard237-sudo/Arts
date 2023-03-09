@@ -23,7 +23,7 @@ namespace Arts.Pages.Users
             userInfo.Username = Request.Form["Username"];
 
             // Si les input sont vides unr=e erreur se declanche
-            if (userInfo.Userpassword.Length == 0 ||
+            if (userInfo.Useremail.Length == 0 ||
                 userInfo.Userpassword.Length == 0 ||
                 userInfo.Username.Length == 0)
             {

@@ -17,6 +17,7 @@
 
                 // Copie le fichier source pour la destination 
                 File.Copy(filenameSource, filenameTarget, true);
+                Console.WriteLine("Copie de l' image reussie");
             }
             catch (Exception ex)
             {

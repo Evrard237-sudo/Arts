@@ -11,6 +11,14 @@
         {
             connection.Open();
             string sql = "DELETE FROM Items WHERE Id = @Id;";
+            string sql2 = "DELETE FROM Forums WHERE id_item = @Id";
+
+            using (SqlCommand command2 = new SqlCommand(sql2, connection))
+            {
+                command2.Parameters.AddWithValue("@Id", Id);
+
+                command2.ExecuteNonQuery();
+            }
 
             using (SqlCommand command = new SqlCommand(sql, connection))
             {

@@ -46,16 +46,28 @@
 
 
 <div class="container">
-    <h2>@Model.itemInfo.ItemName</h2>
+    <div class="d-flex justify-content-between align-content-center">
+        <h2>@Model.itemInfo.ItemName</h2>
+        @if (Model.ReturnUsername != null && Model.itemInfo.ItemPrice != "0")
+        {
+           
+                <a class="btn btn-success text-center mt-2" href="/Carts/AddCart?Id=@Model.itemInfo.Id">
+                    Add Cart
+                </a>
+            
+        }
+    </div>
+    <br /><br />
+    <img src="@Model.itemInfo.ItemThumbnail" alt="Description of @Model.itemInfo.ItemName" width="1095" height="700"/>
+    <p class="display-5">@Model.itemInfo.ItemDescription</p>
     @if (Model.itemInfo.ItemPrice == "0")
     {
         <h3>Not for sale</h3>
     }
-    else{
-        <h3>@Model.itemInfo.ItemPrice FCFA</h3>
+    else
+    {
+        <h3>Price : @Model.itemInfo.ItemPrice FCFA</h3>
     }
-    <img src="@Model.itemInfo.ItemThumbnail" alt="Description of @Model.itemInfo.ItemName" width="1000" height="400"/>
-    <p>@Model.itemInfo.ItemDescription</p>
 </div>
 
 <br/>
@@ -82,13 +94,6 @@
 </div>
 }
 
-@if(Model.ReturnUsername != null && Model.itemInfo.ItemPrice != "0"){
-    <p class="container">
-        <a class="btn btn-success text-center mt-2" href="/Carts/AddCart?Id=@Model.itemInfo.Id">
-            Ajouter dans le panier 
-        </a>
-    </p>
-}
  <br />
 
 <div class="container">

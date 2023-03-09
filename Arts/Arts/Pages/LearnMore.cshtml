@@ -1,0 +1,300 @@
+﻿@page
+@{
+    ViewData["Title"] = "About me";
+}
+
+
+
+
+<main class="about-home">
+    <h2 class="sec-title">About me</h2>
+    <div class="about-container">
+        <div class="about-image">
+            <img src="" alt="" class="about-img">
+            <div class="circle-about"></div>
+        </div>
+        <div class="about-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicinit.
+            Dolorum quos doloribus laudantium placeat provident
+            labore expedita architecto eligendi dolorem optiorat
+            quia eaque molestiae nihil illo sequi assu
+            Odit enim temporibus, ducimus laboriosam
+        </div>
+
+    </div>
+</main>
+<section class="about-sec">
+    <h2 class="sec-title about-sec-title">My passion</h2>
+    <!-- <div class="container-circular">
+        <div class="circular-progress">
+            <span class="progress-value">0%</span>
+        </div>
+
+        <span class="text">HTML & CSS</span>
+    </div> -->
+    <div class="about-content">
+        <div class="about-box">
+            <img src="~/Ressources/khloe-arledge-ypi0l7vP0Vw-unsplash.jpg" alt="">
+            <h3 class="about-box-title">Art</h3>
+            <div class="about-desc">
+                Lorem ipsum dolor sit amet.
+            </div>
+        </div>
+        <div class="about-box">
+            <img src="~/Ressources/steve-johnson-e5LdlAMpkEw-unsplash.jpg" alt="">
+            <h3 class="about-box-title">Paint</h3>
+            <div class="about-desc">
+                Lorem ipsum dolor sit amet.
+            </div>
+        </div>
+        <div class="about-box">
+            <img src="~/Ressources/jocelyn-morales-85u5oGSBJ1s-unsplash.jpg" alt="">
+            <h3 class="about-box-title">Pot</h3>
+            <div class="about-desc">
+                Lorem ipsum dolor sit amet.
+            </div>
+        </div>
+        <div class="about-box">
+            <img src="~/Ressources/right-image.jpg" alt="">
+            <h3 class="about-box-title">Home deco</h3>
+            <div class="about-desc">
+                Lorem ipsum dolor sit amet.
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="contact">
+    <h2 class="sec-title">Contact me</h2>
+    <div class="contact-container">
+        <div class="contact-social">
+            <img src="~/Ressources/facebook_50px.png" alt="facebook_50px" class="contact-img scm1">
+            <img src="~/Ressources/instagram_logo_50px.png" alt="instagram_logo_50px" class="contact-img scm2">
+            <img src="~/Ressources/twitter_50px.png" alt="twitter_50px" class="contact-img scm3">
+            <img src="~/Ressources/whatsapp_50px.png" alt="whatsapp_50px" class="contact-img scm4">
+            <img src="~/Ressources/youtube_play_button_50px.png" alt="whatsapp_50px" class="contact-img scm5">
+        </div>
+
+        <div class="contact-mail">
+            <div class="mail-box">
+                <input type="email" name="email" placeholder="enter your Email">
+                <textarea name="message" id="" cols="30" rows="10" placeholder="enter your message"></textarea>
+                <button class="mail-btn"><img src="~/Ressources/telegram_app_30px.png" alt="telegram_app_30px">Send</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+<div class="cursor"><a class="link-dark" asp-page="/Index">Go to the main</a></div>
+
+<style>
+    .about {
+        width: 100%;
+        height: 100vh;
+        background: rgb(236, 188, 188);
+        background: url("../assets/win-naing-I4El0RTlir4-unsplash.jpg");
+        background-size: cover;
+    }
+
+    .about-home {
+        width: 90%;
+        height: 100vh;
+        margin: 0 auto;
+    }
+
+    .about-container {
+        display: flex;
+        padding: 30px;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .about-image {
+        position: relative;
+        margin-left: 100px;
+    }
+
+    .about-text {
+        width: 40%;
+        line-height: 30px;
+        font-size: 25px;
+        margin-left: 100px;
+    }
+
+    .circle-about {
+        position: absolute;
+        top: -100px;
+        left: -100px;
+        width: 350px;
+        height: 350px;
+        border-radius: 60% 40% 10% 20% / 70% 40% 10% 30%;
+        background-color: #0a493e;
+        z-index: -5;
+        transform: rotate(90deg);
+    }
+
+        .circle-about::after {
+            content: '';
+            position: absolute;
+            margin: 10px;
+            top: -210px;
+            right: -200px;
+            width: 350px;
+            height: 350px;
+            border-radius: 60% 40% 10% 20% / 70% 40% 10% 30%;
+            background-color: #0a493e56;
+            z-index: -5;
+            transform: rotate(180deg);
+        }
+    /* .container-circular {
+        display: flex;
+        width: 420px;
+        padding: 50px 0;
+        border-radius: 8px;
+        background: #fff;
+        row-gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .circular-progress{
+        position: relative;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .circular-progress::before{
+        content: "";
+        position: absolute;
+        height: 210px;
+        width: 210px;
+        border-radius: 50%;
+        background-color: #fff;
+    }
+    .progress-value{
+        position: relative;
+        font-size: 40px;
+        font-weight: 600;
+        color: #7d2ae8;
+    }
+    .text{
+        font-size: 30px;
+        font-weight: 500;
+        color: #606060;
+    } */
+    .about-sec {
+        width: 60%;
+        height: 70vh;
+        margin: 0 auto;
+    }
+
+    .about-sec-title {
+        margin-top: -20px;
+    }
+
+    .about-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-img {
+        transform: translateY(-200px);
+        width: 30%;
+        height: 30%;
+    }
+
+    .about-box {
+        width: 200px;
+        height: 250px;
+        object-fit: cover;
+        margin: 10px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+        .about-box img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            z-index: -44;
+        }
+
+        .about-box .about-box-title {
+            margin-top: -80px;
+            font-size: 40px;
+            color: #96c515;
+        }
+
+    .contact {
+        width: 80%;
+        height: 70vh;
+        margin: 0 auto;
+    }
+
+    .contact-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-social {
+        width: 40%;
+        position: relative;
+    }
+
+    .contact-mail {
+        width: 40%;
+    }
+
+    .mail-box {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        box-shadow: -2px 8px 20px #0a493e6e;
+    }
+
+    input, textarea, .mail-btn {
+        margin: 5px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    input {
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 20px;
+        border: none;
+        outline: 1px solid #0a493e;
+    }
+
+    .mail-btn {
+        width: 200px;
+        padding: 8px;
+        border-radius: 30px;
+        margin: 10px auto;
+        color: #0a493e;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        border: 2px solid #0a493e;
+        background-color: #fff;
+    }
+
+    .contact-img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #0a493e;
+    }
+</style>

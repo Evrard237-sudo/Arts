@@ -37,7 +37,7 @@ namespace Arts.Pages.Items
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                 Console.WriteLine(ex.Message);
             }
             try
             {

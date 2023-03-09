@@ -53,7 +53,17 @@ namespace Arts.Pages
             {
                 Console.WriteLine(ex.Message);
             }
-            
+
+            //searchingWord = Request.Form["search"];
+            //if (searchingWord == null)
+            //{
+            //    Console.WriteLine("C' est vide");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(searchingWord);
+            //}
+
         }
 
         public void OnPost()
@@ -63,6 +73,8 @@ namespace Arts.Pages
             Response.Redirect("/Index");*/
 
             
+
+
             Console.WriteLine(searchingWord);
         }
     }

@@ -103,8 +103,8 @@
                                         <td>@item.ArtistName</td>
                                         <td>@item.ArtistEmail</td>
                                         <td>@item.ArtistUrl</td>
-                                        <td>@item.ArtistThumbnail</td>
-                                        <td class="d-flex justify-content-between">
+                                        <td><img src="@item.ArtistThumbnail" width="100" height="100" /></td>
+                                        <td class="d-flex justify-content-around">
                                             <a class="btn btn-primary btn-sm" href="/Admin/EditArtist?Id=@item.Id">Edit</a>
                                             <a class="btn btn-danger btn-sm" href="/Admin/DeleteArtist?Id=@item.Id">Delete</a>
                                         </td>

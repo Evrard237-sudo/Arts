@@ -16,6 +16,7 @@ namespace Arts.Pages.Admin
 
             try
             {
+                /**/
                 string ConnectionString = "Data Source=.;Initial Catalog=Arts;Integrated Security=True";
                 using (SqlConnection connection = new SqlConnection(ConnectionString))
                 {
